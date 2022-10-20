@@ -26,4 +26,9 @@ Todos os arquivos necessários para iniciar uma partida de futebol simulada est�
    - **rcssserver** (Servidor que permite que 11 jogadores robóticos autônomos simulados joguem futebol)
 
 # Intalando os arquivos e dependências
+
+Para fazer os passo seguintes tenha privilégio de administração 
+
 ## librcsc
+
+
