@@ -31,7 +31,7 @@ Para fazer os passo seguintes tenha privilégio de administração
 
 ## librcsc
 
-A librcsc depende das seguintes bibliotecas:
+A librcsc depende das seguintes dependências:
 
 - Boost 1.38 ou posterior https://www.boost.org/
 
@@ -50,6 +50,23 @@ sudo make install
 
 Após isso as bibliotecas estaram prontas para serem usadas
 
-##agentbase
+## agentbase
 
+A librcsc depende das seguintes dependências:
 
+- Boost 1.38 ou posterior https://www.boost.org/
+- librcsc
+
+No caso do Ubuntu 16.04, execute os seguintes comandos para instalar um ambiente de desenvolvimento básico:
+```
+sudo apt update
+sudo apt install build-essential libboost-all-dev
+```
+Para construir a biblioteca, execute comandos da raiz do diretório de origem:
+```
+./configure
+make
+sudo make install
+```
+
+Após isso os agentes estaram prontos para serem usados
