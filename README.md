@@ -1,6 +1,6 @@
 # RoboCup2D
 
-Repositório destinado a disseminação de conhecimento sobre a competição 2d de futebol de robôs 
+Repositório destinado a disseminação de conhecimento sobre a competição 2d de futebol de robôs. 
 
 # O simulador de futebol
 
@@ -12,7 +12,7 @@ O RoboCup Soccer Simulator é uma ferramenta de pesquisa e educação para siste
 
 O sistema usado para o tutorial foi a distribuição Ubuntu na versão **16.04** encontrado em https://ubuntu.com/
 
-     O sistema foi instalado utilizando o inglês como linguagem nativa
+     O sistema foi instalado utilizando o inglês como linguagem nativa.
  
 Git para clone dos arquivos encontrado em https://git-scm.com/
 
@@ -27,7 +27,7 @@ Todos os arquivos necessários para iniciar uma partida de futebol simulada est�
 
 # Instalando os arquivos e dependências
 
-Para fazer os passo seguintes tenha privilégio de administração 
+Para fazer os passo seguintes tenha privilégio de administração. 
 
 ## librcsc
 
@@ -48,7 +48,7 @@ make
 sudo make install
 ```
 
-Após isso as bibliotecas estaram prontas para serem usadas
+Após isso as bibliotecas estaram prontas para serem usadas.
 
 ## agentbase
 
@@ -69,6 +69,6 @@ make
 sudo make install
 ```
 
-Após isso os agentes estaram prontos para serem usados
+Após isso os agentes estaram prontos para serem usados.
 
 
