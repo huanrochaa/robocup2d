@@ -31,7 +31,7 @@ Para fazer os passo seguintes tenha privilégio de administração.
 
 ## librcsc
 
-A librcsc depende das seguintes dependências:
+A librcsc necessita das seguintes dependências:
 
 - Boost 1.38 ou posterior https://www.boost.org/
 
@@ -41,7 +41,7 @@ sudo apt update
 sudo apt install build-essential libboost-all-dev autoconf automake libtool
 ```
 
-Para construir a biblioteca, execute comandos da raiz do diretório de origem:
+Para construir a biblioteca, execute os comandos da raiz do diretório de origem:
 ```
 ./configure
 make
@@ -52,7 +52,7 @@ Após isso as bibliotecas estarão prontas para serem usadas.
 
 ## agentbase
 
-A librcsc depende das seguintes dependências:
+A librcsc necessita das seguintes dependências:
 
 - Boost 1.38 ou posterior https://www.boost.org/
 - librcsc
@@ -62,7 +62,7 @@ No caso do Ubuntu 16.04, execute os seguintes comandos para instalar um ambiente
 sudo apt update
 sudo apt install build-essential libboost-all-dev
 ```
-Para construir a biblioteca, execute comandos da raiz do diretório de origem:
+Para preparar os agentes, execute os comandos da raiz do diretório de origem:
 ```
 ./configure
 make
@@ -71,4 +71,54 @@ sudo make install
 
 Após isso os agentes estarão prontos para serem usados.
 
+## rcssserver
+
+O rcssserver necessita das seguintes dependências:
+
+- g++ (which supports C++14)
+- autoconf
+- automake
+- libtool
+- flex
+- bison
+- boost >= 1.44
+
+No caso do Ubuntu 16.04, execute os seguintes comandos para instalar um ambiente de desenvolvimento básico:
+```
+sudo apt update
+sudo apt install build-essential automake autoconf libtool flex bison libboost-all-dev
+```
+
+Para preparar o servidor, execute os comandos da raiz do diretório de origem:
+```
+./configure
+make
+sudo make install
+```
+
+Após isso o servidor já pode ser usado.
+
+##rcssmonitor
+
+O rcssmonitor necessita das seguintes dependências:
+
+- g++
+- Qt5
+
+No caso do Ubuntu 16.04, execute os seguintes comandos para instalar um ambiente de desenvolvimento básico:
+```
+sudo apt update
+sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev libxt-dev libglib2.0-dev libxi-dev libxrender-dev
+```
+
+Para preparar o monitor, execute os comandos da raiz do diretório de origem:
+```
+./configure
+make
+sudo make install
+```
+
+Após isso o monitor já pode ser usado.
+
+# Iniciando uma partida
 
