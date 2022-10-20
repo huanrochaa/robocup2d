@@ -6,7 +6,7 @@ Repositório destinado a disseminação de conhecimento sobre a competição 2d 
 
 O RoboCup Soccer Simulator é uma ferramenta de pesquisa e educação para sistemas multiagentes e inteligência artificial.
 
-    - Site oficial da competição https://www.robocup.org/
+- Site oficial da competição https://www.robocup.org/
   
 # Preparando o ambiente
 
