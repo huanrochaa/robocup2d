@@ -98,7 +98,7 @@ sudo make install
 
 Após isso o servidor já pode ser usado.
 
-##rcssmonitor
+## rcssmonitor
 
 O rcssmonitor necessita das seguintes dependências:
 
