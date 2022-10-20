@@ -41,3 +41,15 @@ sudo apt update
 sudo apt install build-essential libboost-all-dev autoconf automake libtool
 ```
 
+Para construir a biblioteca, execute comandos da raiz do diretório de origem:
+```
+./configure
+make
+sudo make install
+```
+
+Após isso as bibliotecas estaram prontas para serem usadas
+
+##agentbase
+
+
