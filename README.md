@@ -122,3 +122,29 @@ Após isso o monitor já pode ser usado.
 
 # Iniciando uma partida
 
+Após a instalação de todas as dependências acima uma partida pode ser iniciada.
+
+### Start no monitor e servidor
+
+No diretório raiz execute o seguinte comando:
+```
+rcsoccersim
+```
+
+O monitor deve ser iniciado mostrando 22 agentes na parte superior da tela. Este terminal deve permanecer aberto pois através dele a comunicação com o servidor é feita.
+
+### Carregando os agentes
+
+No diretório src encontrado em /agentbase/src execute o seguinte o seguinte comando:
+```
+./start.sh -t "NOME DO TIME"
+```
+
+Observe que um dos times será carregado. Este terminal deve permanecer aberto pois através dele a comunicação com o servidor é feita.
+
+Abra novamente um terminal no diretório src encontrado em /agentbase/src e execute o seguinte comando:
+```
+./start.sh -t "NOME DO TIME"
+```
+
+Observe que o segundo times será carregado. Este terminal deve permanecer aberto pois através dele a comunicação com o servidor é feita.
