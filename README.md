@@ -14,4 +14,4 @@ O sistema usado para o tutorial foi a distrubuição Ubuntu na versão **16.04**
 
     ● O sistema foi isntalado utilizando o inglês como linguagem nativa
  
-Git para clone dos arquivos
+Git para clone dos arquivos encontrado em https://git-scm.com/
