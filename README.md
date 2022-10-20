@@ -48,7 +48,7 @@ make
 sudo make install
 ```
 
-Após isso as bibliotecas estaram prontas para serem usadas.
+Após isso as bibliotecas estarão prontas para serem usadas.
 
 ## agentbase
 
@@ -69,6 +69,6 @@ make
 sudo make install
 ```
 
-Após isso os agentes estaram prontos para serem usados.
+Após isso os agentes estarão prontos para serem usados.
 
 
