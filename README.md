@@ -21,7 +21,10 @@ Git para clone dos arquivos encontrado em https://git-scm.com/
 Todos os arquivos necessários para iniciar uma partida de futebol simulada estão disponíveis nesse repositório são eles:
 
    ● **agentbase** (Um time de exemplo para o RoboCup Soccer 2D Simulator)
+   
    ● **librcsc** (Uma biblioteca básica para desenvolver um time de futebol simulado e ferramentas relacionadas para o RoboCup Soccer 2D Simulator)
+   
    ● **rcssmonitor** (Um monitor usado para visualizar a simulação enquanto ela ocorre)
+   
    ● **rcssserver** (Servidor que permite que 11 jogadores robóticos autônomos simulados joguem futebol)
 
