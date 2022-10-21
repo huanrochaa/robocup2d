@@ -12,7 +12,7 @@ O RoboCup Soccer Simulator é uma ferramenta de pesquisa e educação para siste
 
 O sistema usado para o tutorial foi a distribuição Ubuntu na versão **16.04** encontrado em https://ubuntu.com/
 
-     O sistema foi instalado utilizando o inglês como linguagem nativa.
+- O sistema foi instalado utilizando o inglês como linguagem nativa.
  
 Git para clone dos arquivos encontrado em https://git-scm.com/
 
